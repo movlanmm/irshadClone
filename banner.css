@@ -1,0 +1,157 @@
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.banner-container{
+    width: 97%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.banner-image{
+    width: 65%;
+}
+.banner-image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.week-offers{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffd436;
+    padding: 10px 2px 2px 2px;
+    border-radius: 10px;
+}
+
+.week-offer-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 14px;
+    color: #232d40;
+}
+
+.week-offer-item{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.item-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-header a{
+    font-size: 20px;
+    color: #232d40;
+    width: 70%;
+    font-weight: 400;
+}
+
+.item-header img{
+    width: 76px;
+}
+
+.item-info{
+    display: flex;
+}
+
+.item-info img{
+    width: 50%;
+}
+
+.item-info-labels{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.item-label-purple{
+    color: #1743df;
+    display: flex;
+    background-color: #1743df12;
+    padding: 5px 9px;
+    margin-bottom: 8px;
+}
+
+.item-label-orange{
+    color: #f6861f;
+    background-color: #f6861f12;
+    padding: 5px 9px;
+    margin-bottom: 8px;
+}
+
+.item-label{
+    color: #1910b5;
+    padding: 5px 9px;
+    border: 1px solid #1910b5;
+}
+
+.item-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-price span{
+    font-size: 13px;
+    color: #95979c;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+.item-price p{
+    font-size: 22px;
+    color: #232d40;
+    font-weight: 600;
+}
+
+.item-bottom-buttons #first{
+    background-color: #f6861f;
+    color: white;
+    padding: 12px 18px 12px 23px;
+    border-radius: 7px;
+    font-size: 16px;
+    border: 1px solid transparent;
+    transition: all ease 0.15s;
+}
+
+#first:hover{
+    color: #f6861f;
+    background-color: white;
+    border: 1px solid #f6861f;
+}
+
+#second{
+    color: white;
+    background-color: #40b659;
+    padding: 12px 13px;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    transition: all ease 0.15s;
+}
+
+#second:hover{
+    color: #40b659;
+    background-color: white;
+    border: 1px solid #40b659;
+}

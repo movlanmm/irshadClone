@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <div class="nav-bar-links">
+                <a href="#">Kampaniyalar</a>
+                <a href="#">Mağazalar</a>
+                <a href="#">Korporativ</a>
+                <a href="#"><img src="./assets/samsung.png" /></a>
+                <a href="#"><img src="./assets/apple-logo.png" /></a>
+                <a href="#" id="outlet">Outlet</a>
+            </div>
+            <div class="nav-bar-cta">
+                <a href="#"><i class="fa-solid fa-star-of-life"></i>0171</a>
+                <div class="lang-change">
+                    <button style="border: none; background-color: transparent;">
+                        <img src="./assets/azflag.png" />
+                        <span>Azərbaycan dili</i></span>
+                        <i class="fa-solid fa-chevron-down"></i></button>
+                </div>
+                <div class="account">
+                    <a href="#">
+                        <i class="fa-solid fa-person"></i>
+                        <span>Şəxsi kabinet</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="./assets/irshad-logo.svg">
+            </div>
+            <div class="mob-buttons">
+                <a href="#"><i class="fa-solid fa-star-of-life"></i>0171</a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <button><i class="fa-solid fa-bars"></i></button>
+            </div>
+            <div class="catalog-button">
+                <button><i class="fa-solid fa-bars"></i><span>Kataloq</span></button>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Axtarış">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="popular-search">
+                    <div class="categories">
+                        <p>Populyar kateqoriyalar</p>
+                        <hr>
+                        <a href="#" class="category-name">Mobil telefonlar</a>
+                        <ul>
+                            <li><a href="#">Apple</a></li>
+                            <li><a href="#">Honor</a></li>
+                            <li><a href="#">Samsung</a></li>
+
+                        </ul>
+                        <p>Populyar axtarışlar</p>
+                        <ul>
+                            <li><a href="#">Honor</a></li>
+                            <li><a href="#">Honor</a></li>
+                            <li><a href="#">Honor</a></li>
+                            <li><a href="#">Honor</a></li>
+                            <li><a href="#">Honor</a></li>
+                            <li><a href="#">Honor</a></li>
+                        </ul>
+                        <p>Son axtarışlar</p>
+                        <p>Son baxılan məhsullar</p>
+                    </div>
+                    <div class="top-products">
+                        <p class="popular-products-title">Populyar məhsullar</p>
+                        <hr>
+                        <div class="top-item-container">
+                            <div class="top-item">
+                                <img src="./assets/item-image.png">
+                                <div class="top-item-info">
+                                    <span>Telefon</span>
+                                    <p class="item-name">Iphone 13 256 GB Blue</p>
+                                    <strong>1899,99 AZN</strong>
+                                    <em>2199,99 AZN</em>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <img src="./assets/item-image.png">
+                                <div class="top-item-info">
+                                    <span>Telefon</span>
+                                    <p class="item-name">Iphone 13 256 GB Blue</p>
+                                    <strong>1899,99 AZN</strong>
+                                    <em>2199,99 AZN</em>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <img src="./assets/item-image.png">
+                                <div class="top-item-info">
+                                    <span>Telefon</span>
+                                    <p class="item-name">Iphone 13 256 GB Blue</p>
+                                    <strong>1899,99 AZN</strong>
+                                    <em>2199,99 AZN</em>
+                                </div>
+                            </div>
+                            <div class="top-item">
+                                <img src="./assets/item-image.png">
+                                <div class="top-item-info">
+                                    <span>Telefon</span>
+                                    <p class="item-name">Iphone 13 256 GB Blue</p>
+                                    <strong>1899,99 AZN</strong>
+                                    <em>2199,99 AZN</em>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-nav">
+                <div class="header-nav-item">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <span>Müqayisə</span>
+                </div>
+                <div class="header-nav-item">
+                    <i class="fa-regular fa-heart"></i>
+                    <span>Bəyəndim</span>
+                </div>
+                <div class="header-nav-item">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>Səbət</span>
+                </div>
+                <div class="header-nav-payment">
+                    <i class="fa-regular fa-credit-card"></i>
+                    <span>Aylıq ödəniş</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="banner-container">
+            <div class="banner-image">
+                <img src="./assets/banner-image.jpeg">
+            </div>
+            <div class="week-offers">
+                <div class="week-offer-header">
+                    <span>Həftənin təklifi</span>
+                    <p>05 Gün 18:36:05</p>
+                </div>
+                <div class="week-offer-item">
+                    <div class="item-header">
+                        <a href="#"> Honor X7b 128 GB Flowing Silver </a>
+                        <img src="./assets/samsung.png">
+                    </div>
+                    <a href="#" class="item-info">
+                        <img src="./assets/item-image.png" alt="">
+                        <div class="item-info-labels">
+                            <div class="item-label-purple"><i class="fa-solid fa-warehouse"></i>Stokda var</div>
+                            <div class="item-label-orange">-50 AZN nağd alışda endirim</div>
+                            <div class="item-label-purple">Faizsiz təklif</div>
+                            <div class="item-label">Ucuz tapsan,endirimlə al</div>
+                        </div>
+                    </a>
+                    <div class="item-bottom">
+                        <div class="item-price">
+                            <span>449,99 AZN</span>
+                            <p>399,99 AZN</p>
+                        </div>
+                        <div class="item-bottom-buttons">
+                            <a href="#" id="first"><i class="fa-regular fa-hand"></i>Bir kliklə al</a>
+                            <a href="#" id="second"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="services-container">
+            <div class="service-item">
+                <i class="fa-solid fa-shop"></i>
+                <span>40-dan çox mağaza</span>
+            </div>
+            <hr>
+            <a href="#">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>30 mindən çox seçim</span>
+            </a>
+            <hr>
+            <div class="service-item">
+                <i class="fa-solid fa-truck"></i>
+                <span>Sürətli çatdırılma</span>
+            </div>
+            <hr>
+            <div class="service-item">
+                <i class="fa-regular fa-square-check"></i>
+                <span>Rəsmi zəmanət</span>
+            </div>
+            <hr>
+            <div class="service-item">
+                <i class="fa-solid fa-gift"></i>
+                <span>Bonus proqramı</span>
+            </div>
+            <hr>
+            <div class="service-item">
+                <i class="fa-solid fa-cart-flatbed"></i>
+                <span>Sürətli alış veriş</span>
+            </div>
+        </div>
+    </section>
+    <section class="popular-products">
+        <div class="products-header">
+            <h2>
+                <a href="#">Populyar məhsullar</a>
+                <a href="#" class="new-products">Yeni məhsullar</a>
+            </h2>
+            <div class="scroll-buttons">
+                <button><i class="fa-solid fa-arrow-left"></i></button>
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="product-view">
+                <div class="product-item-header">
+                    <a href="#"><i class="fa-solid fa-rotate"></i></a>
+                    <a href="#"><i class="fa-solid fa-scale-balanced"></i></a>
+                    <a href="#" class="like-button"><i class="fa-solid fa-heart"></i></i></a>
+                </div>
+                <div class="product-info">
+                    <a href="#">
+                        <img src="./assets/item-image.png">
+                        <span>Telefon</span>
+                        <p>Xiaomi Redmi 9C 32 GB Grey</p>
+                    </a>
+                </div>
+                <div class="rate-view">
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <div class="comments">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="color-select">
+                    <input type="radio">
+                </div>
+                <div class="product-labels">
+                    <div class="product-label-blue"><i class="fa-solid fa-warehouse"></i>Stokda var</div>
+                    <div class="product-label-purple">Faizsiz təklif</div>
+                    <div class="product-label">Ucuz tapsan,endirimlə al</div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-prices">
+                        <span>269,99AZN</span>
+                        <p>239,99AZN</p>
+                    </div>
+                    <div class="product-payment">
+                        <div class="payment-month">
+                            <input type="radio" id="6ay" name="month">
+                            <label for="6ay">6ay</label>
+                            <input type="radio" id="12ay" name="month">
+                            <label for="12ay">12ay</label>
+                            <input type="radio" id="18ay" name="month">
+                            <label for="18ay">18ay</label>
+                        </div>
+                        <div class="payment-price">
+                            <span>22.5AZN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-basket-button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Səbətə əlavə et</a>
+                </div>
+            </div>
+            <div class="product-line"></div>
+            <div class="product-view">
+                <div class="product-item-header">
+                    <a href="#"><i class="fa-solid fa-rotate"></i></a>
+                    <a href="#"><i class="fa-solid fa-scale-balanced"></i></a>
+                    <a href="#" class="like-button"><i class="fa-solid fa-heart"></i></i></a>
+                </div>
+                <div class="product-info">
+                    <a href="#">
+                        <img src="./assets/item-image.png">
+                        <span>Telefon</span>
+                        <p>Xiaomi Redmi 9C 32 GB Grey</p>
+                    </a>
+                </div>
+                <div class="rate-view">
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <div class="comments">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="color-select">
+                    <input type="radio">
+                </div>
+                <div class="product-labels">
+                    <div class="product-label-blue"><i class="fa-solid fa-warehouse"></i>Stokda var</div>
+                    <div class="product-label-purple">Faizsiz təklif</div>
+                    <div class="product-label">Ucuz tapsan,endirimlə al</div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-prices">
+                        <span>269,99AZN</span>
+                        <p>239,99AZN</p>
+                    </div>
+                    <div class="product-payment">
+                        <div class="payment-month">
+                            <input type="radio" id="6ay-0" name="month">
+                            <label for="6ay-0">6ay</label>
+                            <input type="radio" id="12ay-0" name="month">
+                            <label for="12ay-0">12ay</label>
+                            <input type="radio" id="18ay-0" name="month">
+                            <label for="18ay-0">18ay</label>
+                        </div>
+                        <div class="payment-price">
+                            <span>22.5AZN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-basket-button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Səbətə əlavə et</a>
+                </div>
+            </div>
+            <div class="product-line"></div>
+            <div class="product-view">
+                <div class="product-item-header">
+                    <a href="#"><i class="fa-solid fa-rotate"></i></a>
+                    <a href="#"><i class="fa-solid fa-scale-balanced"></i></a>
+                    <a href="#" class="like-button"><i class="fa-solid fa-heart"></i></i></a>
+                </div>
+                <div class="product-info">
+                    <a href="#">
+                        <img src="./assets/item-image.png">
+                        <span>Telefon</span>
+                        <p>Xiaomi Redmi 9C 32 GB Grey</p>
+                    </a>
+                </div>
+                <div class="rate-view">
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <div class="comments">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="color-select">
+                    <input type="radio">
+                </div>
+                <div class="product-labels">
+                    <div class="product-label-blue"><i class="fa-solid fa-warehouse"></i>Stokda var</div>
+                    <div class="product-label-purple">Faizsiz təklif</div>
+                    <div class="product-label">Ucuz tapsan,endirimlə al</div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-prices">
+                        <span>269,99AZN</span>
+                        <p>239,99AZN</p>
+                    </div>
+                    <div class="product-payment">
+                        <div class="payment-month">
+                            <input type="radio" id="6ay-1" name="month">
+                            <label for="6ay-1">6ay</label>
+                            <input type="radio" id="12ay-1" name="month">
+                            <label for="12ay-1">12ay</label>
+                            <input type="radio" id="18ay-1" name="month">
+                            <label for="18ay-1">18ay</label>
+                        </div>
+                        <div class="payment-price">
+                            <span>22.5AZN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-basket-button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Səbətə əlavə et</a>
+                </div>
+            </div>
+            <div class="product-line"></div>
+            <div class="product-view">
+                <div class="product-item-header">
+                    <a href="#"><i class="fa-solid fa-rotate"></i></a>
+                    <a href="#"><i class="fa-solid fa-scale-balanced"></i></a>
+                    <a href="#" class="like-button"><i class="fa-solid fa-heart"></i></i></a>
+                </div>
+                <div class="product-info">
+                    <a href="#">
+                        <img src="./assets/item-image.png">
+                        <span>Telefon</span>
+                        <p>Xiaomi Redmi 9C 32 GB Grey</p>
+                    </a>
+                </div>
+                <div class="rate-view">
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <div class="comments">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="color-select">
+                    <input type="radio">
+                </div>
+                <div class="product-labels">
+                    <div class="product-label-blue"><i class="fa-solid fa-warehouse"></i>Stokda var</div>
+                    <div class="product-label-purple">Faizsiz təklif</div>
+                    <div class="product-label">Ucuz tapsan,endirimlə al</div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-prices">
+                        <span>269,99AZN</span>
+                        <p>239,99AZN</p>
+                    </div>
+                    <div class="product-payment">
+                        <div class="payment-month">
+                            <input type="radio" id="6ay-2" name="month">
+                            <label for="6ay-2">6ay</label>
+                            <input type="radio" id="12ay-2" name="month">
+                            <label for="12ay-2">12ay</label>
+                            <input type="radio" id="18ay-2" name="month">
+                            <label for="18ay-2">18ay</label>
+                        </div>
+                        <div class="payment-price">
+                            <span>22.5AZN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-basket-button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Səbətə əlavə et</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="brands">
+        <div class="brands-container">
+            <div class="brand">
+                <img src="./assets/brand.png">
+            </div>
+            <div class="brand">
+                <img src="./assets/brand2.png">
+            </div>
+            <div class="brand">
+                <img src="./assets/brand3.png">
+            </div>
+            <div class="brand">
+                <img src="./assets/brand4.png">
+            </div>
+            <div class="brand">
+                <img src="./assets/brand.png">
+            </div>
+            <div class="brand">
+                <img src="./assets/brand.png">
+            </div>
+        </div>
+    </section>
+    <section class="most-sell-discount">
+        <div class="products-header">
+            <h2>
+                <a href="#">Çox satılanlar</a>
+                <a href="#" class="new-products">Endirimli məhsullar</a>
+            </h2>
+            <div class="scroll-buttons">
+                <button><i class="fa-solid fa-arrow-left"></i></button>
+                <button><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="product-view">
+                <div class="product-item-header">
+                    <a href="#"><i class="fa-solid fa-rotate"></i></a>
+                    <a href="#"><i class="fa-solid fa-scale-balanced"></i></a>
+                    <a href="#" class="like-button"><i class="fa-solid fa-heart"></i></i></a>
+                </div>
+                <div class="product-info">
+                    <a href="#">
+                        <img src="./assets/item-image.png">
+                        <span>Telefon</span>
+                        <p>Xiaomi Redmi 9C 32 GB Grey</p>
+                    </a>
+                </div>
+                <div class="rate-view">
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <div class="comments">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="color-select">
+                    <input type="radio">
+                </div>
+                <div class="product-labels">
+                    <div class="product-label-blue"><i class="fa-solid fa-warehouse"></i>Stokda var</div>
+                    <div class="product-label-purple">Faizsiz təklif</div>
+                    <div class="product-label">Ucuz tapsan,endirimlə al</div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-prices">
+                        <span>269,99AZN</span>
+                        <p>239,99AZN</p>
+                    </div>
+                    <div class="product-payment">
+                        <div class="payment-month">
+                            <input type="radio" id="6ay" name="month">
+                            <label for="6ay">6ay</label>
+                            <input type="radio" id="12ay" name="month">
+                            <label for="12ay">12ay</label>
+                            <input type="radio" id="18ay" name="month">
+                            <label for="18ay">18ay</label>
+                        </div>
+                        <div class="payment-price">
+                            <span>22.5AZN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-basket-button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Səbətə əlavə et</a>
+                </div>
+            </div>
+            <div class="product-line"></div>
+            <div class="product-view">
+                <div class="product-item-header">
+                    <a href="#"><i class="fa-solid fa-rotate"></i></a>
+                    <a href="#"><i class="fa-solid fa-scale-balanced"></i></a>
+                    <a href="#" class="like-button"><i class="fa-solid fa-heart"></i></i></a>
+                </div>
+                <div class="product-info">
+                    <a href="#">
+                        <img src="./assets/item-image.png">
+                        <span>Telefon</span>
+                        <p>Xiaomi Redmi 9C 32 GB Grey</p>
+                    </a>
+                </div>
+                <div class="rate-view">
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <div class="comments">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="color-select">
+                    <input type="radio">
+                </div>
+                <div class="product-labels">
+                    <div class="product-label-blue"><i class="fa-solid fa-warehouse"></i>Stokda var</div>
+                    <div class="product-label-purple">Faizsiz təklif</div>
+                    <div class="product-label">Ucuz tapsan,endirimlə al</div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-prices">
+                        <span>269,99AZN</span>
+                        <p>239,99AZN</p>
+                    </div>
+                    <div class="product-payment">
+                        <div class="payment-month">
+                            <input type="radio" id="6ay-0" name="month">
+                            <label for="6ay-0">6ay</label>
+                            <input type="radio" id="12ay-0" name="month">
+                            <label for="12ay-0">12ay</label>
+                            <input type="radio" id="18ay-0" name="month">
+                            <label for="18ay-0">18ay</label>
+                        </div>
+                        <div class="payment-price">
+                            <span>22.5AZN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-basket-button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Səbətə əlavə et</a>
+                </div>
+            </div>
+            <div class="product-line"></div>
+
+            <div class="product-view">
+                <div class="product-item-header">
+                    <a href="#"><i class="fa-solid fa-rotate"></i></a>
+                    <a href="#"><i class="fa-solid fa-scale-balanced"></i></a>
+                    <a href="#" class="like-button"><i class="fa-solid fa-heart"></i></i></a>
+                </div>
+                <div class="product-info">
+                    <a href="#">
+                        <img src="./assets/item-image.png">
+                        <span>Telefon</span>
+                        <p>Xiaomi Redmi 9C 32 GB Grey</p>
+                    </a>
+                </div>
+                <div class="rate-view">
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <div class="comments">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="color-select">
+                    <input type="radio">
+                </div>
+                <div class="product-labels">
+                    <div class="product-label-blue"><i class="fa-solid fa-warehouse"></i>Stokda var</div>
+                    <div class="product-label-purple">Faizsiz təklif</div>
+                    <div class="product-label">Ucuz tapsan,endirimlə al</div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-prices">
+                        <span>269,99AZN</span>
+                        <p>239,99AZN</p>
+                    </div>
+                    <div class="product-payment">
+                        <div class="payment-month">
+                            <input type="radio" id="6ay-1" name="month">
+                            <label for="6ay-1">6ay</label>
+                            <input type="radio" id="12ay-1" name="month">
+                            <label for="12ay-1">12ay</label>
+                            <input type="radio" id="18ay-1" name="month">
+                            <label for="18ay-1">18ay</label>
+                        </div>
+                        <div class="payment-price">
+                            <span>22.5AZN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-basket-button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Səbətə əlavə et</a>
+                </div>
+            </div>
+            <div class="product-line"></div>
+
+            <div class="product-view">
+                <div class="product-item-header">
+                    <a href="#"><i class="fa-solid fa-rotate"></i></a>
+                    <a href="#"><i class="fa-solid fa-scale-balanced"></i></a>
+                    <a href="#" class="like-button"><i class="fa-solid fa-heart"></i></i></a>
+                </div>
+                <div class="product-info">
+                    <a href="#">
+                        <img src="./assets/item-image.png">
+                        <span>Telefon</span>
+                        <p>Xiaomi Redmi 9C 32 GB Grey</p>
+                    </a>
+                </div>
+                <div class="rate-view">
+                    <ul>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                        <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <div class="comments">
+                        <i class="fa-regular fa-comment"></i>
+                        <span>1</span>
+                    </div>
+                </div>
+                <div class="color-select">
+                    <input type="radio">
+                </div>
+                <div class="product-labels">
+                    <div class="product-label-blue"><i class="fa-solid fa-warehouse"></i>Stokda var</div>
+                    <div class="product-label-purple">Faizsiz təklif</div>
+                    <div class="product-label">Ucuz tapsan,endirimlə al</div>
+                </div>
+                <div class="product-bottom">
+                    <div class="product-prices">
+                        <span>269,99AZN</span>
+                        <p>239,99AZN</p>
+                    </div>
+                    <div class="product-payment">
+                        <div class="payment-month">
+                            <input type="radio" id="6ay-2" name="month">
+                            <label for="6ay-2">6ay</label>
+                            <input type="radio" id="12ay-2" name="month">
+                            <label for="12ay-2">12ay</label>
+                            <input type="radio" id="18ay-2" name="month">
+                            <label for="18ay-2">18ay</label>
+                        </div>
+                        <div class="payment-price">
+                            <span>22.5AZN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-basket-button">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i>Səbətə əlavə et</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video-section">
+        <div class="products-header">
+            <h2>
+                <a href="#">Məhsul icmalı</a>
+                <a href="#" class="new-products">İrşad Youtube</a>
+            </h2>
+            <div class="youtube-button">
+                <a href="#"><i class="fa-brands fa-youtube"></i>Youtube hesabına keç</a>
+            </div>
+        </div>
+        <div class="video-section-continer">
+            <div class="video-column">
+                <div class="video-play">
+                    <img src="./assets/video-cover.jpeg">
+                    <div class="cover-button">
+                        <button class="play-button">
+                            <i class="fa-solid fa-play"></i>
+                            <span>Videonu izle</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="#"> iPhone 15-i yaxından tanıyaq. 🙂 </a>
+                    <p>- "iPhone 15" gəldi "OK", bəs icmalı harada qaldı? 🤔
+                        <br>
+                        - Narahat olmağa dəyməz, icmal da gəldi! 😇
+                        <br>
+                        Model haqqında biz danışaq yoxsa Vüsal? Ən yaxşısı Vüsal danışsın, birlikdə izləyək. 😇
+                    </p>
+                </div>
+            </div>
+            <div class="video-column">
+                <div class="video-play">
+                    <img src="./assets/video-cover.jpeg">
+                    <div class="cover-button">
+                        <button class="play-button">
+                            <i class="fa-solid fa-play"></i>
+                            <span>Videonu izle</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="#"> iPhone 15-i yaxından tanıyaq. 🙂 </a>
+                    <p>Kim deyir ki, 13 rəqəmi düşərli deyil? 🤔 Kim elə düşünürsə, bu icmalı izləsin. 😉 Çünki
+                        xəyalları reallığa çevirəcək yeni "Xiaomi 13T" seriyası yüksək texniki göstəriciləri ilə hər kəs
+                        üçün düşərli olacaq! 😎
+                        <br>
+                        İcmala keçməmişdən öncə bir məlumatı da nəzərinizə çatdıraq. 28 sentyabr - 8 oktyabr
+                        tarixlərində istənilən alış zamanı "Xiaomi 13T" modeli üzərində "Xiaomi Mi Smart Band 8",
+                        "Xiaomi 13T Pro" modeli üzərində isə "Xiaomi Watch S1 Active" smart saatına hədiyyə olaraq sahib
+                        ola bilərsən! 😍🎁
+                    </p>
+                </div>
+            </div>
+            <div class="video-column">
+                <div class="video-play">
+                    <img src="./assets/video-cover.jpeg">
+                    <div class="cover-button">
+                        <button class="play-button">
+                            <i class="fa-solid fa-play"></i>
+                            <span>Videonu izle</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <a href="#"> iPhone 15-i yaxından tanıyaq. 🙂 </a>
+                    <p>- "iPhone 15" gəldi "OK", bəs icmalı harada qaldı? 🤔
+                        <br>
+                        - Narahat olmağa dəyməz, icmal da gəldi! 😇
+                        <br>
+                        Model haqqında biz danışaq yoxsa Vüsal? Ən yaxşısı Vüsal danışsın, birlikdə izləyək. 😇
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="youtube-btn-mob">
+            <a href="#"><i class="fa-brands fa-youtube"></i>Youtube hesabına keç</a>
+        </div>
+    </section>
+    <section class="reklam-banner">
+        <div class="reklam-container">
+            <a href="#"><img src="./assets/reklam1.jpeg" alt=""></a>
+            <a href="#"><img src="./assets/reklam2.jpeg" alt=""></a>
+        </div>
+    </section>
+    <section class="qr">
+        <div class="qr-container">
+            <div class="qr-main-content">
+                <div class="qr-left">
+                    <p>Skan et, Qeydiyyatdan keç 24 AZN BONUS qazan!</p>
+                    <a href="#">Daha ətraflı</a>
+                </div>
+                <div class="qr-left-mob">
+                    <p>Qeydiyyatdan keç 24 AZN BONUS qazan!</p>
+                    <a href="#">Daha ətraflı</a>
+                </div>
+                <div class="scan-view">
+                    <img src="./assets/scan.png">
+                    <span>Yükləmək üçün skan et</span>
+                </div>
+            </div>
+            <div class="mob-download">
+                Tetbiqi yuklemek ucun secin
+                <div class="download-buttons">
+                    <a href="#"><i class="fa-brands fa-google-play"></i>Google Play</a>
+                    <a href="#"><i class="fa-brands fa-apple"></i>App Store</a>
+                </div>
+            </div>
+            <div class="bottom-line">
+                <div class="green"></div>
+                <div class="circle"></div>
+                <div class="orange"></div>
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="footer-line">
+            <div class="green"></div>
+            <div class="circle"></div>
+            <div class="orange"></div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="mob-footer">
+                        <a href="#"><img src="./assets/irshad-logo.svg" alt=""></a>
+                    </div>
+                    <div class="scan-col">
+                        <img src="./assets/scan.png" alt="">
+                        <span>Skan et, Qeydiyyatdan keç 24 AZN BONUS qazan!</span>
+                    </div>
+                    <div class="link-col">
+                        <p class="footer-head">Şirkət</p>
+                        <ul>
+                            <li><a href="#">Haqqımızda</a></li>
+                            <li><a href="#">Mağazalar</a></li>
+                            <li><a href="#">Vakansiyalar</a></li>
+                            <li><a href="#">Kampaniyalar</a></li>
+                            <li><a href="#">Şərtlərimiz</a></li>
+                            <li><a href="#">Çatdırılma qaydaları</a></li>
+                            <li><a href="#">Bonuslardan istifadə qaydaları</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-col">
+                        <p class="footer-head">Müştəri üçün</p>
+                        <ul>
+                            <li><a href="#">ŞadKart</a></li>
+                            <li><a href="#">Sual-Cavab</a></li>
+                            <li><a href="#">Hissə-hissə ödəniş</a></li>
+                            <li><a href="#">Məxfilik siyasəti</a></li>
+                            <li><a href="#">Korporativ satışlar</a></li>
+                            <li><a href="#">İstifadə qaydaları </a></li>
+                            <li><a href="#">Bloq</a></li>
+                            <li><a href="#">Şikayət və təkliflər</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-col">
+                        <p class="footer-head">Əlaqə</p>
+                        <div class="contact-info">
+                            <a href="#"><img src="./assets/tel.svg" style="width: 80px;"></a>
+                            <i class="fa-solid fa-house"></i>
+                            <span>Əhməd Rəcəbli 1/9,
+                                Azərbaycan, Bakı şəhəri
+                            </span>
+                        </div>
+                        <div class="contact-social">
+                            <span>Bizi izləyin</span>
+                            <div class="social-links">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                        </div>
+                        <div class="contact-app">
+                            <a href="#"><i class="fa-brands fa-google-play"></i>Google Play</a>
+                            <a href="#"><i class="fa-brands fa-apple"></i>App Store</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <a href="#"><img src="./assets/irshad-logo.svg" alt=""></a>
+                    <div class="copy-right">
+                        İrşad © 2000 - 2023. Bütün hüquqlar qorunur.
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
